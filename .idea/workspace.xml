@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="92bbd439-1931-47e6-9a76-c386c0b5a9d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/src/main/java/edu/eci/cvds/sampleprj/dao/mybatis/mappers/ClienteMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/src/main/java/edu/eci/cvds/sampleprj/dao/mybatis/mappers/ClienteMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/src/main/java/edu/eci/cvds/samples/services/client/MyBatisExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/src/main/java/edu/eci/cvds/samples/services/client/MyBatisExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/src/main/resources/mappers/ClienteMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/src/main/resources/mappers/ClienteMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/target/MyBATIS-Guice-DAO-VideorentalServicesLayer-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/target/classes/edu/eci/cvds/sampleprj/dao/mybatis/mappers/ClienteMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/target/classes/edu/eci/cvds/sampleprj/dao/mybatis/mappers/ItemMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/target/classes/edu/eci/cvds/sampleprj/dao/mybatis/mappers/TipoItemMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/target/classes/edu/eci/cvds/sampleprj/jdbc/example/JDBCExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/target/classes/edu/eci/cvds/samples/entities/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/target/classes/edu/eci/cvds/samples/entities/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/target/classes/edu/eci/cvds/samples/entities/ItemRentado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/target/classes/edu/eci/cvds/samples/entities/TipoItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/target/classes/edu/eci/cvds/samples/services/client/MyBatisExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/target/classes/mappers/ClienteMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/target/classes/mappers/ClienteMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/target/db/testdb.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis_Introduction_VideoRental/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/CVDS-Laboratorio-7.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Z6SbcQiDzuyWk0POTqSUe8UYsq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92bbd439-1931-47e6-9a76-c386c0b5a9d1" name="Default Changelist" comment="" />
+      <created>1583933072382</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583933072382</updated>
+      <workItem from="1584158128611" duration="1804000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="504" y="0" key="CommitChangelistDialog2" timestamp="1584159910659">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="504" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1584159910659" />
+    <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1584158129937">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="384" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584158129937" />
+  </component>
+</project>
