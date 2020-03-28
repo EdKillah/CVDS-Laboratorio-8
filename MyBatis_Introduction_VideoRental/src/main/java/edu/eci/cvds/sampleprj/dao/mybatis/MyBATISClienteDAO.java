@@ -29,7 +29,7 @@ public class MyBATISClienteDAO implements ClienteDAO{
   }
 
   @Override
-  public Cliente consultarCliente(int id) throws PersistenceException {
+  public Cliente consultarCliente(long id) throws PersistenceException {
 	  try{
 	      return clienteMapper.consultarCliente(id);
 	  }
@@ -48,7 +48,7 @@ public class MyBATISClienteDAO implements ClienteDAO{
 	  } 
   }
   @Override
-  public void agregarItemRentadoACliente(int idCliente,int idItem,Date fechainiciorenta, Date fechafinrenta) throws PersistenceException{
+  public void agregarItemRentadoACliente(long idCliente,int idItem,Date fechainiciorenta, Date fechafinrenta) throws PersistenceException{
 	  try{
 		  clienteMapper.agregarItemRentadoACliente(idCliente,idItem,fechainiciorenta,fechafinrenta);
 	  }
@@ -66,5 +66,7 @@ public class MyBATISClienteDAO implements ClienteDAO{
 	    }
 	
 	}
+
+
 }
 
