@@ -4,6 +4,7 @@ import com.google.inject.Inject;
 import com.google.inject.Singleton;
 import edu.eci.cvds.sampleprj.dao.ItemDAO;
 import edu.eci.cvds.sampleprj.dao.PersistenceException;
+import edu.eci.cvds.sampleprj.dao.TipoItemDAO;
 import edu.eci.cvds.sampleprj.dao.mybatis.mappers.ClienteMapper;
 import edu.eci.cvds.samples.entities.Item;
 import edu.eci.cvds.sampleprj.dao.mybatis.mappers.ItemMapper;
@@ -14,39 +15,36 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class MyBATISTipoItemDAO implements ItemDAO{
+public class MyBATISTipoItemDAO implements TipoItemDAO{
 
   @Inject
   private TipoItemMapper tipoItemMapper;    
  
-
   @Override
-  public Item consultarItem(int id) throws PersistenceException {
+  public void save(TipoItem tipoItem) throws PersistenceException {
+  		tipoItemMapper.addTipoItem(tipoItem);
+  	
+  }
+  @Override
+  public TipoItem consultarTipoItem(int id) throws PersistenceException {
   try{
-     // return tipoItemMapper.consultarItem(id);
+     return tipoItemMapper.getTipoItem(id);
   }
   catch(org.apache.ibatis.exceptions.PersistenceException e){
       throw new PersistenceException(PersistenceException.C_ITEM);
   }
-return null;
   
   }
   @Override
-  public java.awt.List consultarItems() throws PersistenceException{
+  public List<TipoItem> consultarTiposItem() throws PersistenceException{
   try{
-	  //return (java.awt.List) tipoItemMapper.consultarItems();
+	  return tipoItemMapper.getTiposItem();
   }
   catch(org.apache.ibatis.exceptions.PersistenceException e){
       throw new PersistenceException(PersistenceException.L_ITEM);
   }
-return null;    
-
   }
-@Override
-public void save(Item it) throws PersistenceException {
-	// TODO Auto-generated method stub
-	
-}
+
 
 
   }

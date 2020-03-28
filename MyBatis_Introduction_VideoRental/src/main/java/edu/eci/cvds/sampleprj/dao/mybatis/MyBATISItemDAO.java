@@ -39,15 +39,31 @@ public class MyBATISItemDAO implements ItemDAO{
   
   }
  @Override
-  public java.awt.List consultarItems() throws PersistenceException{
+  public List<Item> consultarItems() throws PersistenceException{
   try{
-	  return (java.awt.List) itemMapper.consultarItems();
+	  return  itemMapper.consultarItems();
   }
   catch(org.apache.ibatis.exceptions.PersistenceException e){
       throw new PersistenceException(PersistenceException.L_ITEM);
   }    
-
-
   }
-
-  }
+ 
+ @Override
+ public List<Item> consultarDisponibles() throws PersistenceException{
+ try{
+	 return itemMapper.consultarDisponibles();
+ }
+ catch(org.apache.ibatis.exceptions.PersistenceException e){
+     throw new PersistenceException(PersistenceException.L_ITEMD);
+ }    
+ }
+ @Override
+ public void actualizarTarifaItem( int id, long tarifa) throws PersistenceException{ 
+	 try{
+		 itemMapper.actualizarTarifaItem(id,tarifa);
+	 }
+	 catch(org.apache.ibatis.exceptions.PersistenceException e){
+	     throw new PersistenceException(PersistenceException.A_TARIFA);
+	 } 	
+ }
+ }

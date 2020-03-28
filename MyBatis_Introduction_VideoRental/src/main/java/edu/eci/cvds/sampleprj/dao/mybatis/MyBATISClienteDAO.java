@@ -41,7 +41,7 @@ public class MyBATISClienteDAO implements ClienteDAO{
   @Override
   public List<Cliente> consultarClientes() throws PersistenceException {
 	  try{
-	      return clienteMapper.consultarClientes();
+	      return  clienteMapper.consultarCliente();
 	  }
 	  catch(org.apache.ibatis.exceptions.PersistenceException e){
 	      throw new PersistenceException(PersistenceException.CLIENTE);
@@ -56,6 +56,15 @@ public class MyBATISClienteDAO implements ClienteDAO{
 	      throw new PersistenceException(PersistenceException.ITEM_CLIENTE);
 	  }
   }
-  }
-
+	@Override
+	public void vetarCliente(long idCliente, int estado) throws PersistenceException {
+	    try{
+	        clienteMapper.vetarCliente(idCliente,estado);
+	    }
+	    catch(org.apache.ibatis.exceptions.PersistenceException e) {
+	        throw new PersistenceException(PersistenceException.V_CLIENTE);
+	    }
+	
+	}
+}
 

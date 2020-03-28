@@ -1,18 +1,14 @@
 package edu.eci.cvds.sampleprj.dao;
 
-import java.awt.List;
+import java.util.List;
 
-
-
-import edu.eci.cvds.sampleprj.dao.PersistenceException;
-
-import edu.eci.cvds.samples.entities.Item;
+import edu.eci.cvds.samples.entities.TipoItem;
 
 public interface TipoItemDAO {
 
-   public Item consultarItem (int id) throws PersistenceException;
+	public void save(TipoItem tipoItem) throws PersistenceException;
 
-   public java.util.List<Item> consultarItems() throws PersistenceException;
-   
-   public void insertarItem(Item it) throws PersistenceException;
+    public TipoItem consultarTipoItem(int id) throws PersistenceException;
+    
+    public List<TipoItem> consultarTiposItem() throws PersistenceException;
 }
